@@ -327,3 +327,70 @@
 }
 
 /*Info box cointainer 6*/
+
+.minus_btn{
+  background-color: #FFFFFF;
+  border: 1px solid #E6E7EB;
+  width: 40px;
+  height: 40px;
+}
+.minus_btn:hover{
+  background-color:#e7e7e7;
+}
+
+.show{
+  border: 1px solid #E6E7EB;
+  width: 80px;
+  height: 40px;
+  background-color: #FFFFFF; 
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+
+  text-align: center;
+}
+.minus{
+  width: 14px;
+  height:2px;
+  padding-bottom: 4px;
+}
+
+.plus_btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #FF6600;
+  border-radius: 0 2px 2px 0;
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 0 2px 2px 0;
+}
+.plus_btn:hover{
+  background-color:#f1a87d;
+}
+
+/*Info Box 7 css for */
+
+.container{
+  display:inline-flex;
+  width:526px;
+  height:40px;
+}
+.label{
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 174px;
+}
+.buyP{
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn_container{
+  padding-top: 0px;
+  padding-right: 0px;
+}

@@ -1,7 +1,7 @@
-import {React, useState } from 'react'
-import minus from './Icons/minus_icon.png'
-
-export default function OptionQTY() {
+import {React, useState } from 'react';
+import minus from './Icons/minus_icon.png';
+import plus from './Icons/plus_icon.png';
+export default function OptionQTY(props) {
     const [counter, setCounter] = useState(0);
  
     //increase counter
@@ -15,12 +15,26 @@ export default function OptionQTY() {
     }
   };
     return (
-    <div className="btn_container">
+    <div>
+        <label className="options">
+       
+            {Object.keys(props.options).map( key =>(
+               
+                <><label key={key} className="container">
+                    <label className="label">{props.options[key].label}</label>
+                    <label className="buyP">{props.options[key].price.currency.symbol} {props.options[key].price.value}</label>
+                
+                <div className="btn_container">
+                    <button className="minus_btn" onClick={decrease}> <img src={minus} className="minus" alt="minus" /></button>
+                    <button className="show">{counter}</button>
+                    <button className="plus_btn" onClick={increase}><img src={plus} className="plus" alt="minus" /></button>
+                    </div>
+                    </label> </>
+
+            ))}
         
-        <button className="minus_btn" onClick={decrease}> <img src={minus} className="minus" alt="minus" /></button>
-        <button className="show">{counter}</button>
-        <button className="plus_btn" onClick={increase}>+</button>
-      </div>
+      </label>
+    </div>
   );
 }
 

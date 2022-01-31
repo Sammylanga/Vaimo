@@ -10,6 +10,13 @@ import QTY from './OptionQTY';
 
 
 const Details = (props) => {
+
+
+ 
+
+ for (const items of props.products.tags.entries()) {
+    console.log(`${props.products.tags[items]}`);
+}
   return (
     <div className="infoBoxMain">   
     <div className="infoBox">
@@ -51,10 +58,10 @@ const Details = (props) => {
         <p className="counter">{props.products.discount.end_date}</p>
 
         </div> 
-    <QTY>
-        
-    </QTY>
+    <QTY options={props.products.options}>
 
+    </QTY>
+        
 
     </div>
   )
