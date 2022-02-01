@@ -1,7 +1,7 @@
 import {React, useState } from 'react';
 import minus from './Icons/minus_icon.png';
 import plus from './Icons/plus_icon.png';
-
+import "@fontsource/roboto"; 
 
 export default function OptionQTY(props) {
     //store counter

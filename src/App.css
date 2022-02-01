@@ -19,6 +19,7 @@
   height: 40px;
   margin-left:24px;
   margin-right: 24px;
+  font-weight: medium;
 
 }
 .label1{
@@ -40,7 +41,11 @@
   margin-left:24px;
   margin-right: 24px;
   }
-
+.info1{
+  margin-left: 12px;
+  
+  
+}
 .label2{
   color: #FF6600;
   font-family: Roboto;
@@ -57,8 +62,11 @@
   line-height: 16px;
   text-align: left;
   margin-left: 24px;
+  margin-bottom: 0px;
+  margin-top: 28px;
   padding: 0px;
-  display: inline-flex	;
+  position:relative;
+  display: inline-flex;
 
 }
 .priceTag{
@@ -71,6 +79,7 @@
   width: 78px;
   height: 24px;
   padding: 0px;
+
 }
 .shipPlace{
   color: #999999;
@@ -82,6 +91,7 @@
   height: 32px;
   overflow: hidden; 
   text-overflow: ellipsis;
+  margin-right: 48px;
   
 }
 .country{
@@ -90,6 +100,7 @@
   font-size: 14px;
   line-height: 16px;
   text-align: left;
+
 }
 
 .envelop{
@@ -160,6 +171,66 @@
   margin-left: 8px;
   margin-right: 8px;
 }
+
+/*section for old and new price*/
+.options_1{
+  display:block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top:12px;
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+}
+.new_price{
+  display:inline-flex;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+}
+.newPrice{
+  color: #FF6600;
+  display:inline-flex;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.K_{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.battery{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.opt{
+  color: #999999;
+  margin:auto;
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+
+.opt_2{
+  color: #333333;
+  margin: auto;
+  margin-left: 11px;
+  margin-bottom: 4px;
+}
+.minorder{
+  color: #999999;
+  margin: auto;
+  margin-left:2px;
+  margin-bottom: 4px;
+
+}
+.old_price{
+  display:flex;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration:line-through;
+}
+
 /*section 2 of infoBox*/
 .productName{
   line-height: 24px;
@@ -249,6 +320,7 @@
   color: #FF6600;
   font-family: Roboto;
   font-size: 14px; 
+  font-size: small;
   line-height: 16px;
 
 }
@@ -351,7 +423,7 @@
   line-height: 16px;
   text-align: center;
   padding: 0px;
-  margin-bottom:1px;
+  margin:0px;
 }
 .minus{
   width: 14px;

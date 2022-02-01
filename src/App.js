@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import "@fontsource/roboto"; 
 import Header from './components/Header';
 import Ship from './components/Ship';
 import Details from './components/Details';
