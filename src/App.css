@@ -327,7 +327,9 @@
 }
 
 /*Info box cointainer 6*/
-
+.btn_container{
+  float: right;
+}
 .minus_btn{
   background-color: #FFFFFF;
   border: 1px solid #E6E7EB;
@@ -347,8 +349,9 @@
   font-family: Roboto;
   font-size: 14px;
   line-height: 16px;
-
   text-align: center;
+  padding: 0px;
+  margin-bottom:1px;
 }
 .minus{
   width: 14px;
@@ -365,32 +368,35 @@
   background-color: #FFFFFF;
   border-radius: 0 2px 2px 0;
 }
+.plus{
+  position: center;
+  
+}
 .plus_btn:hover{
   background-color:#f1a87d;
 }
 
 /*Info Box 7 css for */
 
-.container{
-  display:inline-flex;
-  width:526px;
+.c_options{
   height:40px;
-}
-.label{
+  position:relative;
   color: #333333;
   font-family: Roboto;
   font-size: 14px;
   line-height: 16px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.btns{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.container{
+  display: inline-flex;
+}
+.labl{
   width: 174px;
-}
-.buyP{
-  color: #333333;
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.btn_container{
-  padding-top: 0px;
-  padding-right: 0px;
+  margin-left: 112px;
 }
