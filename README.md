@@ -23,8 +23,7 @@ Ship.js it shows the shipping price and shipping locations and time it will take
 
 
 
-## Short summary of your choice of technology stack - why did you choose it and if you were to
-## do it again, would you change anything.
+## Short summary of your choice of technology stack - why did you choose it and if you were to do it again, would you change anything.
 
 I decided to use react instead of plain java script with react i can create components that i can
 reuse or call in different functons it makes it efficient and easy to uderstand the code.React
