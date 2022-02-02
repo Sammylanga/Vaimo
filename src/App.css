@@ -568,3 +568,70 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+/*css for mobile phone*/
+@media only screen and (max-width: 360px) {
+  .Main{
+    width: 360px;
+    display:inline-block;
+    height:1440px;
+  }
+  .infoBoxMain{
+  padding-left: 12px;
+  padding-right: 12px; 
+  margin-top: 0px;
+  height: 586px;
+   }
+.itemI{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width:100%;
+  }
+  .productName{
+    height: 72px;
+    width: 336px;
+    margin-top: 10px;
+  }
+  .deliverShip2{
+    display: none;
+  }
+  .deliver{
+    width:336px;
+  }
+  .options_1{
+    width:336px;
+  }
+  .c_options{
+    width:336px;
+  }
+  .labl{
+    margin-left: 0px;
+    width: 148px;
+  }
+  .show{
+    width: 39px;
+    height:39px;
+  }
+  .Assurance{
+    width:
+  }
+  .tags{
+    margin-left: 0px;
+    margin-bottom: 4px;
+  }
+  .ItemImg{
+    width:360px;
+    height: 360px;
+    margin: 0px;
+  }
+  .ratings{
+    margin-top: 13px;
+  }
+  .shipTO{
+    margin-left: 12px;
+    margin-right: 12px;
+
+  justify-content: center;
+  }
+}
