@@ -3,6 +3,10 @@ import ok from './Icons/ok_icon.png';
 import star from './Icons/fullstar.png';
 import logo from './Icons/logo.png';
 import forward from './Icons/forward_icon.png';
+import apple from './Icons/apple_icon.svg';
+import visa from './Icons/visa_icon.svg';
+import mastercard from './Icons/mastercard_icon.svg';
+import lock from './Icons/lock_icon.svg'
 import time from './Icons/time_icon.png';
 import QTY from './OptionQTY';
 import "@fontsource/roboto";
@@ -13,17 +17,17 @@ const Details = (props) => {
 
   return (
     <div className="infoBoxMain">   
-    <div className="infoBox">
+        <div className="infoBox">
       <p className="Stock1">Ready to Ship</p>
       <p className="Stock2"><img src={ok} className="okIcon" alt="OK icon" />In Stock</p>
       <p className="Stock3"><img src={ok} className="okIcon" alt="OK icon" />Fast Dispatch</p>
       </div>
 
-    <div className="productName">
+        <div className="productName">
           <p className="pName">{props.products.name}<label className="tags">{props.products.tags[0]}</label></p> 
       </div>
 
-    <div className="ratings">
+        <div className="ratings">
         <p className="stars">
             <img src={star} className="starIcon" alt="star" />
             <img src={star} className="starIcon" alt="star" />
@@ -34,7 +38,7 @@ const Details = (props) => {
         <p className="rate">{props.products.reviews.rating}</p>
         <p className="count">{props.products.reviews.count} Reviews</p>
         <p className="total_buyers">{props.products.reviews.total_buyers} buyers</p>
-      </div>
+            </div>
     
     <div className="options_1">
         <div className="new_price">
@@ -70,7 +74,21 @@ const Details = (props) => {
         if()
     </QTY>))}
 
-
+    <div className="Assurance">
+        <img className="lock"src={lock} alt='apple'></img>
+        <p className='Trade'>Trade Assurance</p>
+        <p className='protect'>protects your alibaba.com orders</p>
+        </div>
+    <div className="pOpts">
+        <p className='payments'>Paymets: </p>
+        <img className='visa' src={visa} alt="visa"></img>
+        <img className='master' src={mastercard} alt="mastercard"></img>
+        <img className='apple' src={apple} alt="apple"></img>
+        </div>
+    <div className="solutions">
+        <p className="sol1">Alibaba.com Logistics</p>
+        <p className="sol1">Inspection Solutions</p>
+        </div>
     </div>
   )
 }

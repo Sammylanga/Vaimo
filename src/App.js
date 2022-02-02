@@ -22,13 +22,14 @@ async componentDidMount(){
 
 }
   render(){
-    return <div className="App">
+    return <div className="App" >
     {!this.state.items ?(
       /* */
     <h3>Loading...</h3>
     ):(
-    <div className="Main">  
-     <Header>
+    <div className="Main"> 
+  
+     <Header img={this.state.items.product.gallery[0].main}>
      </Header>
 
     <Details products={this.state.items.product}>

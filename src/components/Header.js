@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
+  /*for displaying the image of the products */
   return (
     <div>
-      Header
+      <img className="ItemImg" src={props.img}></img>
     </div>
   )
 }

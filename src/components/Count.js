@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function Count(props) {
   
+  /*Calculate the time left form time given and current time */
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     const difference = +new Date(props.timer) - +new Date();
@@ -18,7 +19,7 @@ function Count(props) {
 
     return timeLeft;
   };
-
+/*store the timer */
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   
 
@@ -29,7 +30,7 @@ function Count(props) {
   });
 
   const timerComponents = [];
-
+/*Use to display the count down timer */
   Object.keys(timeLeft).forEach((key) => {
     timerComponents.push(
       <span>
@@ -39,7 +40,7 @@ function Count(props) {
   });
   return (
     <div>
-      {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+      {timerComponents.length ? timerComponents : <span>Discount Invalid</span>}
     </div>
   );
 }

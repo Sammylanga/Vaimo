@@ -1,12 +1,32 @@
+/*For the header image*/
 
+.ItemImg{
+  width:416px;
+  height:416px;
+  margin-left: 72px;
+  margin-top:48px;
+  margin-right:24px;
+}
 /*CSS FOR THE ADD TO BOX COMPONENT*/
+.App{
+ display: flex;
+ justify-content: center;
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+
+}
 .Main{
   display: inline-flex;
 }
+
 .shipTO{
   background-color: rgba(255, 255, 255, 0);
   border-radius: 8px;
   width: 306px;
+  margin-top: 48px;
+  margin-left: 24px;
+  margin-right: 72px;
   height: 256px;
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
@@ -22,6 +42,11 @@
   font-weight: medium;
 
 }
+.login:hover{
+  background-color:#ff9d00ec;
+  cursor: pointer;
+}
+
 .label1{
   color: #FFFFFF;
   font-family: Roboto;
@@ -40,6 +65,10 @@
   margin-top: 12px;
   margin-left:24px;
   margin-right: 24px;
+  }
+  .contact:hover{
+    background-color:#f3dfd3;
+    cursor: pointer;
   }
 .info1{
   margin-left: 12px;
@@ -123,6 +152,7 @@
 .infoBoxMain{
   width: 526px;
   height: 544px;
+  margin-top: 48px;
 }
 .infoBox{
   display: inline-flex	;
@@ -314,7 +344,6 @@
   width: 526px;
   height: 40px;
   margin-left: 0px;
-  margin-bottom: 12px;
   padding: 0px;
   background-color: #FFF0E6;
   color: #FF6600;
@@ -354,6 +383,8 @@
   display:inline-flex;
   width: 328px;
   height: 24px;
+  margin-top:28px;
+  margin-bottom: 28px;
   line-height: 16px;
   white-space: nowrap;
 }
@@ -471,4 +502,69 @@
 .labl{
   width: 174px;
   margin-left: 112px;
+}
+
+/*Info box 8 css*/
+.Assurance{
+  display:inline-flex;
+  color: #999999;
+  font-family: Roboto;
+  line-height: 16px;
+  width: 526px;
+}
+.lock{
+  margin-right: 4px;
+  margin-top: 8px;
+}
+.Trade{
+  font-weight:bold;
+  font-size: 14px;
+  margin-right: 4px;
+  margin-top: 24px;
+}
+.protect{
+ font-size: 12px;
+ margin-top: 24px;
+}
+
+/*info box 10 */
+.pOpts{
+  display:inline-flex;
+  text-align: left;
+  width: 526px;
+}
+
+.payments{
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  margin-top: 0px;
+  
+}
+.visa{
+  margin-bottom: 12px;
+  margin-left: 4px;
+}
+.master{
+  margin-bottom: 12px;
+  margin-left: 4px;
+}
+.apple{
+  margin-bottom: 12px;
+  margin-left: 4px;
+}
+
+.solutions{
+  display: inline-flex;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+}
+.sol1{
+  margin-right: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
