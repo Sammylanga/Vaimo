@@ -68,12 +68,12 @@ const Details = (props) => {
         <p className="counter"><Dtimer timer={props.products.discount.end_date}></Dtimer></p>
 
         </div> 
-        
+    
     {Object.keys(props.products.options).map(key =>(
     <QTY key={key} options={props.products.options[key]}>
         if()
     </QTY>))}
-
+         
     <div className="Assurance">
         <img className="lock"src={lock} alt='apple'></img>
         <p className='Trade'>Trade Assurance</p>

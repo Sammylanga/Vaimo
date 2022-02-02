@@ -72,8 +72,19 @@
   }
 .info1{
   margin-left: 12px;
-  
-  
+}
+.info1:hover{
+  background-color:#dfdddd;
+  cursor: pointer;
+}
+.onHover{
+  display: none;
+}
+.info1:hover +.onHover{
+  display:contents;
+  color: #333333;
+  font-family: Roboto;
+  font-weight: bold;
 }
 .label2{
   color: #FF6600;
@@ -570,7 +581,7 @@
 }
 
 /*css for mobile phone*/
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 524px) {
   .Main{
     width: 360px;
     display:inline-block;
@@ -581,12 +592,22 @@
   padding-right: 12px; 
   margin-top: 0px;
   height: 586px;
+  width: 360px;
    }
-.itemI{
+ .itemI{
   display: flex;
   justify-content: center;
   margin: 0 auto;
   width:100%;
+  }
+  .Assurance{
+    width:336px;
+  }
+  .pOpts{
+    width:336px;
+  }
+  .solutions{
+    width: 336px;
   }
   .productName{
     height: 72px;
@@ -605,6 +626,7 @@
   .c_options{
     width:336px;
   }
+  
   .labl{
     margin-left: 0px;
     width: 148px;
@@ -612,9 +634,6 @@
   .show{
     width: 39px;
     height:39px;
-  }
-  .Assurance{
-    width:
   }
   .tags{
     margin-left: 0px;
@@ -631,7 +650,149 @@
   .shipTO{
     margin-left: 12px;
     margin-right: 12px;
+    width: 336px;
+    padding-left:8px;
 
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 760px) {
+  .Main{
+    width: 760px;
+    display:inline-block;
+    height:1440px;
+  }
+  .infoBoxMain{
+  padding-left: 12px;
+  padding-right: 12px; 
+  margin-top: 0px;
+  height: 586px;
+  width: 760px;
+   }
+ .itemI{
+  display: flex;
   justify-content: center;
+  margin: 0 auto;
+  width:100%;
+  }
+  .Assurance{
+    width:736px;
+  }
+  .pOpts{
+    width:736px;
+  }
+  .solutions{
+    width: 736px;
+  }
+  .productName{
+    height: 72px;
+    width: 736px;
+    margin-top: 10px;
+  }
+  .deliverShip2{
+    display: none;
+  }
+  .deliver{
+    width:736px;
+  }
+  .options_1{
+    width:736px;
+  }
+  .c_options{
+    width:736px;
+  }
+  
+  .labl{
+    margin-left: 0px;
+    width: 148px;
+  }
+
+  .tags{
+    margin-left: 0px;
+    margin-bottom: 4px;
+  }
+  .ItemImg{
+    margin: 0px;
+  }
+  .ratings{
+    margin-top: 13px;
+  }
+  .shipTO{
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 736px;
+    padding-left:8px;
+
+  }
+}
+
+
+@media only screen and (max-width: 760px) and (min-width: 525px) {
+  .Main{
+    width: 560px;
+    display:inline-block;
+    height:1440px;
+  }
+  .infoBoxMain{
+  padding-left: 12px;
+  padding-right: 12px; 
+  margin-top: 0px;
+  height: 586px;
+  width: 560px;
+   }
+ .itemI{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width:100%;
+  }
+  .Assurance{
+    width:536px;
+  }
+  .pOpts{
+    width:536px;
+  }
+  .solutions{
+    width: 536px;
+  }
+  .productName{
+    height: 72px;
+    width: 536px;
+    margin-top: 10px;
+  }
+  .deliverShip2{
+    display: none;
+  }
+  .deliver{
+    width:536px;
+  }
+  .options_1{
+    width:536px;
+  }
+  .c_options{
+    width:536px;
+  }
+  
+  .labl{
+    margin-left: 0px;
+    width: 148px;
+  }
+
+  .tags{
+    margin-left: 0px;
+    margin-bottom: 4px;
+  }
+  .ItemImg{
+    margin: 0px;
+  }
+  .ratings{
+    margin-top: 13px;
+  }
+  .shipTO{
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 536px;
+    padding-left:8px;
+
   }
 }
