@@ -30,7 +30,7 @@ reuse or call in different functons it makes it efficient and easy to uderstand 
 uses Virtual Dom it makes it faster to load when changes are made unline real Dom.
 React its easier to maintain and handles Ui and logic together.
 
-#Changes ill make given this assesment again
+# Changes ill make given this assesment again
 
 I will start by creating components and adding the css after that will make it effiency and 
 less of the code unlike adding a feature the style it immediately like i did i could not track
